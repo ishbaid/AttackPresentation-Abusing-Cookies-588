@@ -1,7 +1,11 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/frytyler/pen/EGdtg.
+set up a virtual environment
+	virtualenv venvName
 
- I built this login form to block the front end of most of my freelance wordpress projects during the development stage. 
+activate
+	source venvName/bin/activate
 
-This is just the HTML / CSS of it but it uses wordpress's login system. 
+install dependencies
+	pip install -r requirements.txt
 
-Nice and Simple
+run dummy site
+	python app.py
